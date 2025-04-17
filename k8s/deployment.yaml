@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: {{dockerhub account}}/myapp:1.0.0
+        image: https://quay.io/k_anton_chirkov/myapp:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
